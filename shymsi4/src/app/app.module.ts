@@ -7,6 +7,7 @@ import { ChandimaComponent } from './modules/chandima/chandima.component';
 import { ChathuraComponent } from './modules/chathura/chathura.component';
 import { Chathura2Component } from './modules/chathura2/chathura2.component';
 import { CherrypickchandimaComponent } from './modules/cherrypickchandima/cherrypickchandima.component';
+import { VanaComponent } from './modules/vana/vana.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CherrypickchandimaComponent } from './modules/cherrypickchandima/cherry
     ChandimaComponent,
     ChathuraComponent,
     Chathura2Component,
-    CherrypickchandimaComponent
+    CherrypickchandimaComponent,
+    VanaComponent
   ],
   imports: [
     BrowserModule,
