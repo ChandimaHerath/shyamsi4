@@ -8,6 +8,7 @@ import { ChathuraComponent } from './modules/chathura/chathura.component';
 import { Chathura2Component } from './modules/chathura2/chathura2.component';
 import { CherrypickchandimaComponent } from './modules/cherrypickchandima/cherrypickchandima.component';
 import { VanaComponent } from './modules/vana/vana.component';
+import { YaththaComponent } from './modules/yaththa/yaththa.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { VanaComponent } from './modules/vana/vana.component';
     ChathuraComponent,
     Chathura2Component,
     CherrypickchandimaComponent,
-    VanaComponent
+    VanaComponent,
+    YaththaComponent
   ],
   imports: [
     BrowserModule,
