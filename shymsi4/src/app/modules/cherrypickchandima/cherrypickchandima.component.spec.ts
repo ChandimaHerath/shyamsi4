@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Chandima2Component } from './chandima2.component';
+import { CherrypickchandimaComponent } from './cherrypickchandima.component';
 
-describe('Chandima2Component', () => {
-  let component: Chandima2Component;
-  let fixture: ComponentFixture<Chandima2Component>;
+describe('CherrypickchandimaComponent', () => {
+  let component: CherrypickchandimaComponent;
+  let fixture: ComponentFixture<CherrypickchandimaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Chandima2Component ]
+      declarations: [ CherrypickchandimaComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Chandima2Component);
+    fixture = TestBed.createComponent(CherrypickchandimaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

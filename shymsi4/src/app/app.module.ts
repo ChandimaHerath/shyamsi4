@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { ChandimaComponent } from './modules/chandima/chandima.component';
 import { ChathuraComponent } from './modules/chathura/chathura.component';
 import { Chathura2Component } from './modules/chathura2/chathura2.component';
-import { Chandima2Component } from './modules/chandima2/chandima2.component';
+import { CherrypickchandimaComponent } from './modules/cherrypickchandima/cherrypickchandima.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { Chandima2Component } from './modules/chandima2/chandima2.component';
     ChandimaComponent,
     ChathuraComponent,
     Chathura2Component,
-    Chandima2Component
+    CherrypickchandimaComponent
   ],
   imports: [
     BrowserModule,
