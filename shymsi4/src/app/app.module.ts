@@ -9,7 +9,6 @@ import { Chathura2Component } from './modules/chathura2/chathura2.component';
 import { CherrypickchandimaComponent } from './modules/cherrypickchandima/cherrypickchandima.component';
 import { VanaComponent } from './modules/vana/vana.component';
 import { YaththaComponent } from './modules/yaththa/yaththa.component';
-import { YaththaCherryPickComponent } from './modules/yaththa-cherry-pick/yaththa-cherry-pick.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +18,7 @@ import { YaththaCherryPickComponent } from './modules/yaththa-cherry-pick/yathth
     Chathura2Component,
     CherrypickchandimaComponent,
     VanaComponent,
-    YaththaComponent,
-    YaththaCherryPickComponent
+    YaththaComponent
   ],
   imports: [
     BrowserModule,
