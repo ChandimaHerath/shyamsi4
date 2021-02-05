@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChandimaComponent } from './modules/chandima/chandima.component';
 import { ChathuraComponent } from './modules/chathura/chathura.component';
+import { Chathura2Component } from './modules/chathura2/chathura2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChandimaComponent,
-    ChathuraComponent
+    ChathuraComponent,
+    Chathura2Component
   ],
   imports: [
     BrowserModule,
